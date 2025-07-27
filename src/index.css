@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@600&display=swap');
+
+@font-face {
+  font-family: 'LemonMilk';
+  src: url('/fonts/lemon-milk-medium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply font-sans bg-foreground text-background max-w-[700px] mx-auto w-full pt-[100px];
+}
