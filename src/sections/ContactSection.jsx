@@ -14,7 +14,7 @@ function ContactSection() {
             type="text"
             id="name"
             name="name"
-            className="w-full p-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-accent"
+            className="w-full bg-gray-700 text-white placeholder-gray-400 border-none rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-accent"
             required
           />
         </div>
@@ -27,7 +27,7 @@ function ContactSection() {
             type="email"
             id="email"
             name="email"
-            className="w-full p-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-accent"
+            className="w-full bg-gray-700 text-white placeholder-gray-400 border-none rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-accent"
             required
           />
         </div>
@@ -40,16 +40,15 @@ function ContactSection() {
             id="message"
             name="message"
             rows="4"
-            className="w-full p-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-accent"
+            className="w-full bg-gray-700 text-white placeholder-gray-400 border-none rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-accent"
             required
           ></textarea>
         </div>
 
         <button
           type="submit"
-          className="bg-accent text-white py-2 px-4 rounded hover:bg-yellow-500 transition"
-        >
-          Send
+          className="bg-accent text-foreground font-semibold px-4 py-2 rounded-md shadow hover:bg-yellow-400 transition" >
+          Send message
         </button>
       </form>
     </section>

@@ -28,7 +28,8 @@ function ProjectsSection() {
   return (
     <section className="max-w-[700px] mx-auto px-4 py-12" id="projects">
       <h2 className="text-2xl font-lemon text-accent mb-6">Projects</h2>
-      <div className="flex flex-col gap-6">
+      <p className="text-muted">Project highlights coming soon.</p>
+      <div className="flex flex-col gap-6 hidden">
         {projects.map((project) => (
           <ProjectCard
             key={project.id}

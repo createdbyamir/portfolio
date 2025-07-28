@@ -14,3 +14,7 @@
 body {
   @apply font-sans bg-foreground text-background max-w-[700px] mx-auto w-full pt-[100px];
 }
+
+.fa-icon {
+  @apply text-2xl hover:text-accent transition;
+}

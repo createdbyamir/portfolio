@@ -21,7 +21,8 @@ function ExperienceSection() {
   return (
     <section className="max-w-[700px] mx-auto px-4 py-12" id="experience">
       <h2 className="text-2xl font-lemon text-accent mb-6">Experience</h2>
-      <div className="flex flex-col gap-8">
+      <p className="text-muted">Experience timeline will be added shortly.</p>
+      <div className="flex flex-col gap-8 hidden">
         {experiences.map((exp) => (
           <ExperienceItem
             key={exp.id}
