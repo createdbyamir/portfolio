@@ -1,4 +1,5 @@
 import ProjectCard from '../components/ProjectCard';
+import FadeInSection from "../components/FadeInSection";
 
 const projects = [
   {
@@ -26,7 +27,7 @@ const projects = [
 
 function ProjectsSection() {
   return (
-    <section className="max-w-[700px] mx-auto px-4 py-12" id="projects">
+    <FadeInSection className="scroll-mt-24 max-w-[700px]  mx-auto  text-muted px-4 py-20" id="projects">
       <h2 className="text-2xl font-lemon text-accent mb-6">Projects</h2>
       <p className="text-muted">Project highlights coming soon.</p>
       <div className="flex flex-col gap-6 hidden">
@@ -40,7 +41,7 @@ function ProjectsSection() {
           />
         ))}
       </div>
-    </section>
+    </FadeInSection>
   );
 }
 

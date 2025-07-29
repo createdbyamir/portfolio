@@ -12,9 +12,13 @@
 @tailwind utilities;
 
 body {
-  @apply font-sans bg-foreground text-background max-w-[700px] mx-auto w-full pt-[100px];
+  @apply font-sans bg-foreground text-background max-w-[700px] mx-auto w-full pt-[80px]  text-xl;
 }
 
 .fa-icon {
-  @apply text-2xl hover:text-accent transition;
+  @apply text-3xl hover:text-accent transition;
+}
+
+html {
+  scroll-behavior: smooth;
 }

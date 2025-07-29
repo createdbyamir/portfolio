@@ -1,8 +1,8 @@
-// src/sections/ContactSection.jsx
+import FadeInSection from "../components/FadeInSection";
 
 function ContactSection() {
   return (
-    <section className="max-w-[700px] mx-auto px-4 py-12" id="contact">
+    <FadeInSection className="max-w-[700px] mx-auto text-muted px-4 py-20" id="contact">
       <h2 className="text-2xl font-lemon text-accent mb-6">Contact</h2>
 
       <form className="space-y-4">
@@ -47,11 +47,11 @@ function ContactSection() {
 
         <button
           type="submit"
-          className="bg-accent text-foreground font-semibold px-4 py-2 rounded-md shadow hover:bg-yellow-400 transition" >
+          className="bg-accent text-foreground font-semibold px-4 py-2 rounded-md shadow hover:bg-accentHover transition" >
           Send message
         </button>
       </form>
-    </section>
+    </FadeInSection>
   );
 }
 

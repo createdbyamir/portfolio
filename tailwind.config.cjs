@@ -11,6 +11,7 @@ module.exports = {
         background: "#f8fafc",
         foreground: "#1e293b",
         accent: "#fbbf24",
+        accentHover: "#fcd34d",
         muted: "#cbd5e1",
       },
       fontFamily: {
@@ -18,6 +19,7 @@ module.exports = {
         poppins: ["'Poppins'", ...defaultTheme.fontFamily.sans],
         lemon: ["'LemonMilk'", "sans-serif"],
       },
+      scrollBehavior: ['responsive'],
     },
   },
   plugins: [],
