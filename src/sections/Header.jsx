@@ -7,7 +7,6 @@ function Header() {
           <li><a href="#about" className="hover:text-slate-600 transition">About</a></li>
           <li><a href="#experience" className="hover:text-slate-600 transition">Experience</a></li>
           <li><a href="#projects" className="hover:text-slate-600 transition">Projects</a></li>
-          <li><a href="#contact" className="hover:text-slate-600 transition">Contact</a></li>
         </ul>
       </nav>
 

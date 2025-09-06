@@ -14,7 +14,6 @@ createRoot(document.getElementById('root')).render(
     <Intro />
     <ExperienceSection />
     <ProjectsSection />
-    <ContactSection />
     <Footer />
   </StrictMode>,
 )
